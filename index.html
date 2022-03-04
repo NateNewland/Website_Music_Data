@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How Music Trends have Changed Over the Decades</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      #app {
+        display: flex;
+        margin: 2rem 1rem;
+      }
+
+      #chart {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+        padding: 1rem;
+      }
+
+      #chart,
+      #data {
+        margin: 0 2rem;
+      }
+
+      #data ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      #data li {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+      }
+
+      .bar {
+        fill: blue;
+      }
+
+      .label {
+        fill: black;
+      }
+    </style>
+    <script src="https://d3js.org/d3.v5.min.js" defer></script>
+    <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="chart">
+        <svg></svg>
+        <defs></defs>
+      </div>
+     
+      <div id="data">
+        <ul></ul>
+      </div>
+      <div id="detail">
+        <img id="img1" src="./Resource/Images/60s_graphs/explicit.PNG"
+          width="300"
+          height="300">
+        <img id="img2" src="./Resource/Images/60s_graphs/energy.PNG"
+          width="300"
+          height="300">
+        <img id="img3" src="./Resource/Images/60s_graphs/loudness.PNG"
+          width="300"
+          height="300">
+          <img id="img4" src="./Resource/Images/60s_graphs/popularity.PNG"
+          width="300"
+          height="300">
+          <img id="img5" src="./Resource/Images/60s_graphs/tempo.PNG"
+          width="300"
+          height="300">
+          <img id="img6" src="./Resource/Images/60s_graphs/duration.PNG"
+          width="300"
+          height="300">
+          <img id="img7" src="./Resource/Images/60s_graphs/danceability.PNG"
+          width="300"
+          height="300">
+          <img id="img8" src="./Resource/Images/60s_graphs/acousticness.PNG"
+          width="300"
+          height="300">
+      </div>
+    </div>
+  </body>
+</html>
